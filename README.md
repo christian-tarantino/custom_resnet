@@ -65,6 +65,14 @@ with less epochs this resnet can still obtain good results:
 
 
 
+## 📈 Training Dynamics & Convergence
+
+Below are the test accuracy and loss trajectory comparisons
+
+
+
+
+
 
 
 
