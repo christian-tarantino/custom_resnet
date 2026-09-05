@@ -13,7 +13,7 @@
 
 | Method | Params (M) | Test Acc (%) | Time | Epochs
 | :---: | :---: | :---: | :---: | :---: |
-| ResNet-18 (He et al.) | 11.17 | 92.34 | 17m 48s | 150 |
+| ResNet-18 (He et al.) | 11.17 | 92.22 | 17m 48s | 150 |
 | **Custom ResNet Medium** | **4.36** | **93.11** | **11m 42s** | 150 |
 | **Custom ResNet Tiny** | **1.09** | **91.19** | **9m 47s** | 150 |
 |**Custom ResNet Mini** | **0.27** | **87.29** | **8m 35s** | 150 |
@@ -67,7 +67,20 @@ with less epochs this resnet can still obtain good results:
 
 ## 📈 Training Dynamics & Convergence
 
-Below are the test accuracy and loss trajectory comparisons
+Below are the test accuracy and loss trajectory comparisons with 150 epochs
+
+
+ResNet (He et al.)
+![Training Curves](images/curve_resnet.png)
+
+ResNet Medium
+![Training Curves](images/curve_resnet_medium.png)
+
+ResNet Tiny
+![Training Curves](images/curve_resnet_tiny.png)
+
+ResNet Mini
+![Training Curves](images/curve_resnet_mini.png)
 
 
 
